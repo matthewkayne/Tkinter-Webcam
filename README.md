@@ -1,5 +1,7 @@
 # Tkinter-Webcam
 
+[![PyPI version](https://badge.fury.io/py/tkinter-webcam.svg)](https://badge.fury.io/py/tkinter-webcam)
+
 Easily display a webcam window in a Tkinter GUI
 
 To use the package simply import it:
@@ -17,4 +19,4 @@ webcamObject.show_frames()
 # Show the created Box
 ```
 
-Checkout `example.py` to see a full script using this object
+Checkout [`example.py`](https://github.com/matthewkayne/Tkinter-Webcam/blob/master/example.py) to see a full script using this object
