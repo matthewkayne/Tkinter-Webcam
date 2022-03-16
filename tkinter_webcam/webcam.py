@@ -4,11 +4,13 @@ import cv2
 from PIL import Image, ImageTk
 
 class Box:
-    def __init__(self, window):
+    def __init__(self, window, width, height):
         self.window = window
-        self.label = Label(self.window, width=450, height=450)
-        self.cap = cv2.VideoCapture(0)
+        self.width = width
+        self.height = height
         
+        self.label = Label(self.window, width=self.width, height=self.height)
+        self.cap = cv2.VideoCapture(0)
         self.label.pack()
 
     def show_frames(self): # Define function to show frame
