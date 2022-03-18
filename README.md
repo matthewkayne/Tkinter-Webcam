@@ -4,6 +4,12 @@
 
 Easily display a webcam window in a Tkinter GUI
 
+To install the package use:
+
+```bash
+pip install tkinter-webcam
+```
+
 To use the package simply import it:
 
 ```python
