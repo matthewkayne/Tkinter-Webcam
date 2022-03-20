@@ -1,3 +1,4 @@
+"""Example"""
 import tkinter as tk
 from tkinter_webcam import webcam
 

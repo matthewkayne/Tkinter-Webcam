@@ -16,6 +16,12 @@ class Box:
         self.cap = cv2.VideoCapture(0)
         self.label.pack()
 
+    def get_box_info(self):
+        """Gets Box Information """
+        print(f"Window: {self.window}")
+        print(f"Width: {self.width}")
+        print(f"Height: {self.height}")
+
     def show_frames(self):  # Define function to show frame
         """Show Frames"""
         # Get the latest frame and convert into Image
