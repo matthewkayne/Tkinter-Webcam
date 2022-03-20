@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import *
 from tkinter_webcam import webcam
 
 window = tk.Tk()  # Sets up GUI

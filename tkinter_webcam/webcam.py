@@ -1,10 +1,12 @@
-import tkinter as tk
-from tkinter import *
-import cv2
+"""Webcam"""
+from tkinter import Label
+from cv2 import cv2
 from PIL import Image, ImageTk
 
 
 class Box:
+    """Box"""
+
     def __init__(self, window, width, height):
         self.window = window
         self.width = width
@@ -15,7 +17,7 @@ class Box:
         self.label.pack()
 
     def show_frames(self):  # Define function to show frame
-
+        """Show Frames"""
         # Get the latest frame and convert into Image
         cv2image = cv2.cvtColor(self.cap.read()[1], cv2.COLOR_BGR2RGB)
         img = Image.fromarray(cv2image)
