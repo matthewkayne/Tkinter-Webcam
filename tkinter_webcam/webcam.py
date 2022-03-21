@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 class Box:
     """Box"""
 
-    def __init__(self, window, width, height):
+    def __init__(self, window, width=450, height=450):
         self.window = window
         self.width = width
         self.height = height
