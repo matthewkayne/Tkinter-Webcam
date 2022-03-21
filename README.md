@@ -19,9 +19,9 @@ from tkinter_webcam import webcam
 Then create the `Box` object using any variable name and immediently run the show frames function:
 
 ```python
-webcamObject = webcam.Box(window, 450, 450)
+webcam_object = webcam.Box(window, width=450, height=450)
 # Uses Box class from webcam to create video window
-webcamObject.show_frames()
+webcam_object.show_frames()
 # Show the created Box
 ```
 
