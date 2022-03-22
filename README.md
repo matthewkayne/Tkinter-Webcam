@@ -1,6 +1,6 @@
 # Tkinter-Webcam
 
-[![PyPI version](https://badge.fury.io/py/tkinter-webcam.svg)](https://badge.fury.io/py/tkinter-webcam)
+[![CodeFactor](https://www.codefactor.io/repository/github/matthewkayne/tkinter-webcam/badge)](https://www.codefactor.io/repository/github/matthewkayne/tkinter-webcam) [![PyPI version](https://badge.fury.io/py/tkinter-webcam.svg)](https://badge.fury.io/py/tkinter-webcam)
 
 Easily display a webcam window in a Tkinter GUI
 
