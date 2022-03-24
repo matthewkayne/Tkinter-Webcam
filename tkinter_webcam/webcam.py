@@ -1,7 +1,7 @@
 """Webcam"""
 from tkinter import Label
-from cv2 import cv2
 from PIL import Image, ImageTk
+import cv2
 
 
 class Box:
